@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 getSharedPreferences("misPreferencias", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putString("texto", binding.idEditTexto.getText().toString());
-        editor.putInt("numero", Integer.valueOf(binding.idEditNumero.getText().toString()));
+        editor.putInt("numero", Integer.parseInt(binding.idEditNumero.getText().toString()));
         editor.apply();
 
         Intent intent = new Intent(this, SegundoActivity.class);

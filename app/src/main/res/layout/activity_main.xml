@@ -21,7 +21,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Introduce un texto"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/idEditNumero"
@@ -29,7 +30,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Introduce un número"
-            android:inputType="number" />
+            android:inputType="number"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/idBoton"
@@ -37,7 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="accion"
-            android:text="aceptar" />
+            android:text="aceptar"
+            android:textSize="14sp" />
 
     </LinearLayout>
 
